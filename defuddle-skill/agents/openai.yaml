@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/openai/openai-plugin-schema/refs/heads/main/plugins/openai-plugins-skill.json
+display_name: Defuddle
+short_description: Extract readable content from HTML pages as plain text or Markdown.
+default_prompt: |
+  Use the defuddle skill to extract the main article content from the HTML
+  provided by the user. The bundled script at scripts/defuddle.py can format
+  the output as plain text or Markdown, stripping navigation, ads, sidebars,
+  and other non-content elements.
+category: other
+skill_categories:
+  - general
+prompt_suggestions: []
+icon: {}
+description: Extract readable content from HTML pages, stripping navigation, sidebars, ads, and other clutter. Produces clean plaintext or Markdown output.
